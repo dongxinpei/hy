@@ -1,0 +1,17 @@
+data:
+  db:
+    uri: jdbc:mysql://127.0.0.1:3306/passport_qa
+    user: passport_qa
+    password: 123456
+    db: passport_qa
+    min_idle: 4
+    max_pool_size: 32
+    
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    db: 1
+  jwt:
+    issuer: LINGMAO.tech
+    expire: 360000
+    secret: 8iO5uuxl25Wpvy8mHqQCgEm6WdZzA5bd

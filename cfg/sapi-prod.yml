@@ -1,0 +1,20 @@
+data:
+  db:
+    uri: jdbc:mysql://172.20.48.82:3306/sapi
+    user: sapi
+    password: KbgKQDrGdfnOLxg7
+    db: sapi
+    min_idle: 128
+    max_pool_size: 256
+    
+  redis:
+    host: 172.20.48.82
+    port: 6379
+    db: 2
+    password: eFX0CYD6ip3p52Ko
+
+  auth:
+    signature_secret: 8iO5uuxl25Wpvy8mHqQCgEm6WdZzA5bd
+
+  passport:
+    uri: http://hy.lingmao.tech/api/passport/auth_path

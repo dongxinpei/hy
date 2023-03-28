@@ -1,0 +1,19 @@
+data:
+  db:
+    uri: jdbc:mysql://127.0.0.1:3306/sapi_qa
+    user: sapi_qa
+    password: 123456
+    db: sapi_qa
+    min_idle: 32
+    max_pool_size: 64
+    
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    db: 1
+
+  auth:
+    signature_secret: cs
+
+  passport:
+    uri: http://qa-hy.lingmao.tech/api/passport/auth_path

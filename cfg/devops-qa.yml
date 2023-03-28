@@ -1,0 +1,5 @@
+data:
+  env: devops-qa
+  etcd:
+    endpoint: http://172.20.48.82:2379
+    

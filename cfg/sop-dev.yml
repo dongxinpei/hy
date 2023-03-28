@@ -1,0 +1,14 @@
+data:
+  db:
+    uri: jdbc:mysql://localhost/sop
+    user: sop
+    password: 123456
+    db: sop
+    min_idle: 4
+    max_pool_size: 32
+
+  redis:
+    host: localhost
+    port: 6379
+    db: 4
+    password: foobared

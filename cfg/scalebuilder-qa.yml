@@ -1,0 +1,24 @@
+data:
+  db:
+    uri: jdbc:mysql://127.0.0.1:3306/scale_qa
+    user: scale_qa
+    password: 123456
+    db: scale_qa
+    min_idle: 4
+    max_pool_size: 32
+    
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    db: 1
+
+
+  app:
+    key: HYSCALE
+    secret: Iacb8Cub24NLWd6WDClX7d1tIfLNugyR9SOI13Y7MHjDAiCIzAxhKiBqS6DbkvJT
+  
+  gateway:
+    uri: http://106.12.155.231
+  
+  passport:
+    auth_uri: http://127.0.0.1:8003/api/passport/auth
