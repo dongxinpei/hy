@@ -1,8 +1,8 @@
 data:
   db:
     uri: jdbc:mysql://localhost/sop
-    user: sop
-    password: 123456
+    user: root
+    password: Dongxinpei@123
     db: sop
     min_idle: 4
     max_pool_size: 32
